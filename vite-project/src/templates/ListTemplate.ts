@@ -13,7 +13,7 @@ export default class ListTemplate implements DOMList {
     static instance: ListTemplate = new ListTemplate()
 
     private constructor() {
-        this.ul = document.getElementById('.list') as HTMLUListElement
+        this.ul = document.getElementById('listItems') as HTMLUListElement
     }
     // methods 
     clear(): void {
